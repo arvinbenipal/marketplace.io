@@ -21,14 +21,15 @@ function Hero() {
             <div>
                 <img className="w-full" src={bgImg} alt="/"/>
             </div>
-            <div className='absolute flex flex-col py-8 md;min-w[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 
+            <div className='hidden lg:flex absolute flex-col py-8 bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 
             bg-white border border-state-300 rounded-xl text-center shadow-xl text-black'>
                 <p>Data Services</p>
                 <div className='flex justify-between flex-wrap px-3'>
                     <p className='flex px-4 py-2'><PhotographIcon className='h-6 text-indigo-600' /> NFTs</p>
                     <p className='flex px-4 py-2'><DatabaseIcon className='h-6 text-indigo-600' /> Non-Fungible</p>
                     <p className='flex px-4 py-2'><ServerIcon className='h-6 text-indigo-600'/> Blockchain</p>
-                    <p className='flex px-4 py-2'><PaperAirplaneIcon className='h-6 text-indigo-600'/> Ethereum</p>
+                    <p className='flex px-4 py-2'><ServerIcon className='h-6 text-indigo-600'/> Ethereum</p>
+                    
                 </div>
             </div>
         </div>
